@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <form class="form">
+      <div class="form-inputs">
+        <div class="form-group">
+          <label for="first">First Name <span>*</span></label>
+          <input class="form-group-input" type="text" id="first" />
+        </div>
+        <div class="form-group">
+          <label for="last">Last Name <span>*</span></label>
+          <input class="form-group-input" type="text" id="last" />
+        </div>
+      </div>
+      <div class="email">
+        <label for="email">Email address <span>*</span></label>
+        <input class="form-group-input" id="email" type="text" />
+      </div>
+      <div class="form-inputs">
+        <div class="form-group form-group-input form-check">
+          <input
+            class="form-check-radio"
+            id="checkRadio1"
+            type="radio"
+            name="radio"
+          />
+          <label class="form-check-lable" for="checkRadio1">
+            General Enquiry <span>*</span>
+          </label>
+        </div>
+        <div class="form-group form-group-input form-check">
+          <input
+            class="form-check-radio"
+            id="checkRadio2"
+            type="radio"
+            name="radio"
+          />
+          <label class="form-check-lable" for="checkRadio2">
+            Support Request <span>*</span></label
+          >
+        </div>
+      </div>
+      <div class="form-message">
+        <label for="message">Message <span>*</span></label>
+        <input class="form-message-input" id="message" type="text" />
+      </div>
+      <div class="form-checkbox">
+        <input class="form-checkbox-input" id="checkbox" type="checkbox" />
+        <label for="checkbox"
+          >I consent to being contacted by the team <span>*</span></label
+        >
+      </div>
+      <button class="form-button">Submit</button>
+    </form>
+  </body>
+</html>

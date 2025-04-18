@@ -1,0 +1,143 @@
+@import url(https://fonts.googleapis.com/css2?family=Karla:wght@100;200;300;400;500;600;700&display=swap);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #2a4144;
+  background: #e0f1e8;
+  user-select: none;
+}
+
+/* form */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px;
+  width: 736px;
+  background: #ffffff;
+  border-radius: 16px;
+}
+input[type="radio"] {
+  cursor: pointer;
+}
+span {
+  color: #0c7d69;
+}
+.form-inputs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+}
+
+.form-group {
+  width: 50%;
+}
+
+.form-group-input {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #86a2a5;
+  padding: 12px 24px;
+  outline: none;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+.email {
+  width: 100%;
+}
+.form-check {
+  width: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.form-check-radio {
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border: 1px solid rgba(164, 20, 20, 0.425);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-check-radio:checked::before {
+  content: "\f00c";
+  font-family: "font Awesome 5 Free";
+  font-weight: 900;
+  color: white;
+  width: 20px;
+  height: 20px;
+  background: rgba(164, 20, 20, 0.425);
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-message {
+  width: 100%;
+}
+.form-message-input {
+  width: 100%;
+  width: 656px;
+  height: 105px;
+  border-radius: 8px;
+  border: 1px solid #86a2a5;
+  outline: none;
+  margin-top: 8px;
+}
+.form-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 40px;
+}
+.form-checkbox-input {
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  border: 1px solid orange;
+  cursor: pointer;
+}
+.form-checkbox-input:checked:before {
+  content: "\f4fc";
+  font-family: "font Awesome 5 Free";
+  font-weight: 900;
+  color: white;
+  width: 30px;
+  height: 30px;
+  background: rgba(164, 20, 20, 0.425);
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-button {
+  margin-top: 40px;
+  width: 100%;
+  padding: 16px 40px;
+  background: #0c7d69;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
