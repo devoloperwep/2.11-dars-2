@@ -31,6 +31,9 @@ body {
   background: #ffffff;
   border-radius: 16px;
 }
+.form-title {
+  margin-bottom: 32px;
+}
 input[type="radio"] {
   cursor: pointer;
 }
